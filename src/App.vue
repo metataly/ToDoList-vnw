@@ -1,7 +1,7 @@
 <script setup>
   import { ref } from 'vue';
-  import claus from './assets/download.gif';
-  import claus2 from './assets/download (1).gif';
+  import claus from '../public/download.gif';
+  import claus2 from '../public/download (1).gif';
 
   const tarefas = ref([
     "Arrumar a cama",
@@ -101,7 +101,7 @@ main {
 }
 
 body {
-  background-image: url('src/assets/xmasArvore.jpg');
+  background-image: url('/public/xmasArvore.jpg');
   width: 100vw;
   height: 100vh;
   display: flex;
