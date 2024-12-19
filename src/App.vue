@@ -1,7 +1,7 @@
 <script setup>
   import { ref } from 'vue';
-  import claus from './public/download.gif';
-  import claus2 from './public/download (1).gif';
+  import claus from '../public/download.gif';
+  import claus2 from '../public/download (1).gif';
 
   const tarefas = ref([
     "Arrumar a cama",
