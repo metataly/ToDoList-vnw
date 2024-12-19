@@ -101,7 +101,7 @@ main {
 }
 
 body {
-  background-image: url('src/assets/xmasArvore.jpg');
+  background-image: url('@/assets/xmasArvore.jpg');
   width: 100vw;
   height: 100vh;
   display: flex;
