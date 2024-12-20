@@ -58,7 +58,6 @@
         </div>
       </li>
     </ul>
-
     <section>
       <h2>Tarefas Concluídas</h2>
       <div class = "nenhumatask" v-if="tarefasConcluida.length === 0">
@@ -86,6 +85,7 @@ main {
   width: 40vw;
   background-color: #a62f24;
   border-radius: 24px;
+  overflow: auto;
 
   h1,h2{
     color: white;
@@ -94,9 +94,19 @@ main {
     font-size: 2.2em;
   }
 
+  section{
+    text-align: center;
+  }
+
   p{
     color: white;
     font-family: monospace;
+  }
+
+  @media (max-width: 750px){
+    width: 90vw;
+    height: 90vh;
+    font-size: 1.19em;
   }
 }
 
@@ -127,14 +137,24 @@ li{
     transform: scale(1.05);
   }
 
+  @media (max-width: 750px){
+    width: 80vw;
+    height: 5vh;
+    margin-right: 10vw;
+  }
+  
 }
 
 button { 
-    background-color: #a6bd83;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #a6bd83;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  @media (max-width: 750px){
+    margin: 0 1.5vw;
   }
+}
 
 .add{
   width: 25vw;
@@ -147,6 +167,16 @@ button {
     border-radius: 8px;
     border: none;
     margin: 0 8px;
+
+    @media (max-width: 750px){
+      width: 85vw;
+      padding: 1.5vh;
+    }
+  }
+
+  @media (max-width: 750px){
+    justify-content: center;
+    width: 85vw;
   }
 }
 
@@ -154,8 +184,16 @@ button {
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: 750px){
+    flex-direction: column;
+    align-items: center;
+  }
   img{
    width: 8vw;
+
+   @media (max-width: 750px){
+      width: 35vw;
+    }
   }
 }
 
@@ -163,8 +201,17 @@ button {
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: 750px){
+    flex-direction: column;
+    align-items: center;
+  }
+
   img{
    width: 5vw;
+
+   @media (max-width: 750px){
+      width: 20vw;
+    }
   }
 }
 </style>
