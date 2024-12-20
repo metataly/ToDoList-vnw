@@ -103,7 +103,7 @@ main {
     font-family: monospace;
   }
 
-  @media (max-width: 750px){
+  @media (max-width: 850px){
     width: 90vw;
     height: 90vh;
     font-size: 1.19em;
@@ -137,7 +137,7 @@ li{
     transform: scale(1.05);
   }
 
-  @media (max-width: 750px){
+  @media (max-width: 850px){
     width: 80vw;
     height: 5vh;
     margin-right: 10vw;
@@ -151,7 +151,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 
-  @media (max-width: 750px){
+  @media (max-width: 850px){
     margin: 0 1.5vw;
   }
 }
@@ -168,13 +168,13 @@ button {
     border: none;
     margin: 0 8px;
 
-    @media (max-width: 750px){
+    @media (max-width: 850px){
       width: 85vw;
       padding: 1.5vh;
     }
   }
 
-  @media (max-width: 750px){
+  @media (max-width: 850px){
     justify-content: center;
     width: 85vw;
   }
@@ -184,14 +184,14 @@ button {
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 750px){
+  @media (max-width: 850px){
     flex-direction: column;
     align-items: center;
   }
   img{
    width: 8vw;
 
-   @media (max-width: 750px){
+   @media (max-width: 850px){
       width: 35vw;
     }
   }
@@ -201,7 +201,7 @@ button {
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 750px){
+  @media (max-width: 850px){
     flex-direction: column;
     align-items: center;
   }
@@ -209,7 +209,7 @@ button {
   img{
    width: 5vw;
 
-   @media (max-width: 750px){
+   @media (max-width: 850px){
       width: 20vw;
     }
   }
